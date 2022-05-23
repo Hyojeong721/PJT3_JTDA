@@ -4,4 +4,7 @@ ARG JAR_FILE=build/libs/*.jar
 
 COPY ${JAR_FILE} app.jar
 
-ENTRYPOINT ["java","--spring.config.location=classpath:file:/config/application.properties","-jar","/app.jar"]
+ENV SPRING_CONFIG_NAME=application
+ENV SPRING_CONFIG_LOCATION=/config
+
+ENTRYPOINT ["java","-jar","/app.jar"]
