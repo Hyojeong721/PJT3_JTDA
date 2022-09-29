@@ -157,7 +157,7 @@
 - Tag를 선택하면 해당 Tag를 가진 Host들만이 표시된다.
 - Cluster 이름으로 검색할 수 있다.
 
-![사이드바](../README.assets/search1.png)
+![사이드바](/README.assets/search1.png)
 
 #### 4. 조회할 Host 선택
 
